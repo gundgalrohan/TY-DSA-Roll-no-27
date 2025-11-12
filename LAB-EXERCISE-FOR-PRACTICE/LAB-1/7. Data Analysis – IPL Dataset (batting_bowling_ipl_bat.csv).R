@@ -22,5 +22,5 @@ barplot(top10_sr$SR,
         ylab = "Strike Rate")
 
 #6. Correlation between Runs and Strike Rate
-cor(ipl$Runs, ipl$SR, use = "complete.obs")
+cor(ipl$Runs, ipl$SR)
 
