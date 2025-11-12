@@ -18,7 +18,7 @@ mean(adult$age, na.rm = TRUE)
 table(adult$income)
 
 #6. Most common occupation
-sort(table(adult$occupation), decreasing = TRUE)[1]
+sort(table(adult$occupation), decreasing = TRUE)
 
 #7. Average hours per week for each income group
 tapply(adult$hours_per_week, adult$income, mean, na.rm = TRUE)
