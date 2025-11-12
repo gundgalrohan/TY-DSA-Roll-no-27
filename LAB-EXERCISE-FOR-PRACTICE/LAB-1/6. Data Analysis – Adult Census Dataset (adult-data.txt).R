@@ -28,7 +28,7 @@ barplot(table(adult$education),
         main = "Education Levels",
         xlab = "Education",
         ylab = "Count",
-        las = 2, col = "skyblue")
+        col = "skyblue")
 
 #9. Country with highest % of >50K earners
 library(dplyr)
